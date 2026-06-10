@@ -48,4 +48,32 @@ vocales[0:3]
 ## reemplazar elementos por slicing
 vocales[0:3]=['A','E','I']
 ```
+### Metodos para listas
+un metodo es una accion que puedo realizar en una lista, los metodos por lo general se utilizan despues de la variable y se accede al metodo atraves de un punto.
+los metodos mas comunes son aquellos que nos permiten agregar , modificar y eliminar
+```python
+# agregar elemento
+## append
+animales:list[str]=[]
+animales.append("gato")
+# el metodo append agrega elementos en la ultyima posicion de nuestra lista
+## insert
+numeros_pares:list[int]=[4,6,10]
+numeros_pares.insert(0,2)
+numeros_pares.insert(3,8)
+amigos:list[str]=["juan","jose"]
+amigos.insert(1,"deduardo")
+# eliminar elementos
+## eliminar por indice
+vocales:list[str]=["a","e","i","o","u"]
+del vocales[-1]
+## eliminar por valor
+vocales.remove("u")
+## usando metodo pop
+vocales:list[str]=["a","e","i","o","u"]
+vocales.pop()
+# en este caso pop elimina por defecto el ultimo
+vocales.pop(3)
+# en este caso eliminara el elemnto el elemnto que se encuentra en la posicion 3
+```
 ## Diccionarios📖 
