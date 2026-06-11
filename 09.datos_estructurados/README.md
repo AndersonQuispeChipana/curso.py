@@ -75,5 +75,14 @@ vocales.pop()
 # en este caso pop elimina por defecto el ultimo
 vocales.pop(3)
 # en este caso eliminara el elemnto el elemnto que se encuentra en la posicion 3
+
+# buscar
+## este metodo permite ubicar a travez del valor el primer elemento(la primera coicidencia) dentro de una lista, y devolvera el indice de ese valor este metodo es index
+amantes:list[str]=['chapo','cristian','emerson','victor']
+# quiero ubicar si en mi lista de infieles de infieles existe victor
+amantes.index('victor')#retorna un index si existe 3
+amantes[buscar] # victor
+## busqueda por pertenecia
+existe:bool="chapo" in amantes
 ```
 ## Diccionarios📖 
