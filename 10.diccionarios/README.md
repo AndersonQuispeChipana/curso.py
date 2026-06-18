@@ -77,3 +77,14 @@ tienda.popitem() #eliminar el ultimo elemento
 # para limpiar todo el diccionario
 tienda.clear()
 ```
+## recorrer un diccionarios(tarea)
+
+Un diccionario puede recorrerse utilizando bucles `for` para acceder a sus claves, valores o ambos.
+### Diccionario de ejemplo
+```python
+persona = {
+    "nombre": "Juan",
+    "edad": 25,
+    "ciudad": "Lima"
+}
+```
